@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="261" failures="0" name="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" time="0.467" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="12+33"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-12\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:/Users/ddehun/Desktop/ass2/CoreNLP"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="KR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\ddehun\Desktop\ass2\CoreNLP"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="12+33"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\ddehun\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:/apache-maven-3.6.0/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="MS949"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-12\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\ddehun\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\ddehun\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\libnvvp;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files\PuTTY;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\gradle\gradle-5.3.1\bin;C:\Program Files\Java\jdk-12\bin;C:\apache-maven-3.6.0\bin;C:\apache-ant-1.10.5\bin;C:\Users\ddehun\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Bandizip;C:\Program Files (x86)\Java\jre1.8.0_171\bin;C:\Program Files\MongoDB\Server\4.0\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;."/>
+    <property name="maven.conf" value="C:/apache-maven-3.6.0/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="56.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:/apache-maven-3.6.0/lib/jansi-native"/>
+    <property name="user.home" value="C:\Users\ddehun"/>
+    <property name="user.timezone" value="Asia/Seoul"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="12"/>
+    <property name="user.name" value="ddehun"/>
+    <property name="java.class.path" value="C:/apache-maven-3.6.0/boot/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="12"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install -U"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-12"/>
+    <property name="user.language" value="ko"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="12"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\apache-maven-3.6.0"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2019-03-19"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[0]" time="0.002"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[1]" time="0.002"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[2]" time="0.002"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[3]" time="0.003"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[4]" time="0.001"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[5]" time="0.002"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[6]" time="0.001"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[7]" time="0.001"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[8]" time="0.002"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[9]" time="0.001"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[10]" time="0.002"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[11]" time="0.003"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[12]" time="0.002"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[13]" time="0.002"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[14]" time="0.002"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[15]" time="0.001"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[16]" time="0.002"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[17]" time="0.002"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[18]" time="0.001"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[19]" time="0.002"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[20]" time="0.002"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[21]" time="0.002"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[22]" time="0.002"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[23]" time="0.003"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[24]" time="0.002"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[25]" time="0.003"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[26]" time="0.002"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[27]" time="0.001"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[28]" time="0.001"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[29]" time="0.002"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[30]" time="0.002"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[31]" time="0.001"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[32]" time="0.002"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[33]" time="0"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[34]" time="0.001"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[35]" time="0.001"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[36]" time="0.002"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[37]" time="0.002"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[38]" time="0.001"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[39]" time="0.002"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[40]" time="0.001"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[41]" time="0.001"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[42]" time="0.001"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[43]" time="0.001"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[44]" time="0.002"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[45]" time="0.003"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[46]" time="0.003"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[47]" time="0.003"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[48]" time="0.001"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[49]" time="0"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[50]" time="0.002"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[51]" time="0.002"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[52]" time="0.001"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[53]" time="0.002"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[54]" time="0.001"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[55]" time="0.002"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[56]" time="0.002"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[57]" time="0.002"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[58]" time="0.001"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[59]" time="0.002"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[60]" time="0.001"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[61]" time="0.001"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[62]" time="0.002"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[63]" time="0.001"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[64]" time="0.002"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[65]" time="0.001"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[66]" time="0.002"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[67]" time="0.001"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[68]" time="0.003"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[69]" time="0.002"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[70]" time="0.002"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[71]" time="0.001"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[72]" time="0.001"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[73]" time="0.003"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[74]" time="0.002"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[75]" time="0.001"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[76]" time="0.003"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[77]" time="0.003"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[78]" time="0.002"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[79]" time="0.002"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[80]" time="0.002"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[81]" time="0.001"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[82]" time="0.001"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[83]" time="0.002"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[84]" time="0.002"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[85]" time="0.001"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[86]" time="0.003"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[87]" time="0.001"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[88]" time="0.002"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[89]" time="0.002"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[90]" time="0.007"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[91]" time="0.008"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[92]" time="0.001"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[93]" time="0.003"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[94]" time="0.001"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[95]" time="0.002"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[96]" time="0.007"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[97]" time="0.006"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[98]" time="0.001"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[99]" time="0.002"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[100]" time="0.001"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[101]" time="0.001"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[102]" time="0.001"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[103]" time="0.002"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[104]" time="0.001"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[105]" time="0.002"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[106]" time="0.001"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[107]" time="0.002"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[108]" time="0.002"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[109]" time="0.001"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[110]" time="0.003"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[111]" time="0.001"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[112]" time="0.002"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[113]" time="0.004"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[114]" time="0.001"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[115]" time="0.002"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[116]" time="0.001"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[117]" time="0.001"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[118]" time="0.002"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[119]" time="0.001"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[120]" time="0.002"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[121]" time="0.003"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[122]" time="0"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[123]" time="0.001"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[124]" time="0.001"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[125]" time="0.002"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[126]" time="0"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[127]" time="0"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[128]" time="0.001"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[129]" time="0.002"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[130]" time="0.002"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[131]" time="0.002"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[132]" time="0.003"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[133]" time="0.006"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[134]" time="0"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[135]" time="0"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[136]" time="0.001"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[137]" time="0"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[138]" time="0"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[139]" time="0.001"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[140]" time="0.001"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[141]" time="0.002"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[142]" time="0"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[143]" time="0.002"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[144]" time="0.002"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[145]" time="0.001"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[146]" time="0.001"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[147]" time="0.006"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[148]" time="0.002"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[149]" time="0"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[150]" time="0.001"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[151]" time="0.004"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[152]" time="0"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[153]" time="0.001"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[154]" time="0.004"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[155]" time="0"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[156]" time="0.005"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[157]" time="0.002"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[158]" time="0.001"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[159]" time="0.001"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[160]" time="0.004"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[161]" time="0.001"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[162]" time="0.005"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[163]" time="0.001"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[164]" time="0.002"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[165]" time="0.001"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[166]" time="0.002"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[167]" time="0.001"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[168]" time="0.001"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[169]" time="0.001"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[170]" time="0.002"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[171]" time="0.001"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[172]" time="0.001"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[173]" time="0.001"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[174]" time="0.001"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[175]" time="0.001"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[176]" time="0.001"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[177]" time="0.002"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[178]" time="0.001"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[179]" time="0.001"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[180]" time="0.003"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[181]" time="0.001"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[182]" time="0.001"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[183]" time="0.002"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[184]" time="0"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[185]" time="0.001"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[186]" time="0.002"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[187]" time="0.002"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[188]" time="0.001"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[189]" time="0.002"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[190]" time="0.002"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[191]" time="0.001"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[192]" time="0.002"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[193]" time="0.001"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[194]" time="0.002"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[195]" time="0.001"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[196]" time="0.002"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[197]" time="0.002"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[198]" time="0.002"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[199]" time="0.001"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[200]" time="0.002"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[201]" time="0.002"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[202]" time="0.002"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[203]" time="0.001"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[204]" time="0.002"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[205]" time="0.001"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[206]" time="0.001"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[207]" time="0.002"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[208]" time="0.003"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[209]" time="0.001"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[210]" time="0.002"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[211]" time="0.002"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[212]" time="0.003"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[213]" time="0.002"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[214]" time="0.003"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[215]" time="0.001"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[216]" time="0.002"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[217]" time="0.001"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[218]" time="0.001"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[219]" time="0.002"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[220]" time="0.002"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[221]" time="0.002"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[222]" time="0.002"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[223]" time="0.001"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[224]" time="0.001"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[225]" time="0.002"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[226]" time="0.001"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[227]" time="0.001"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[228]" time="0.002"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[229]" time="0.001"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[230]" time="0.002"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[231]" time="0.004"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[232]" time="0.002"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[233]" time="0.002"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[234]" time="0.005"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[235]" time="0.004"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[236]" time="0.002"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[237]" time="0.003"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[238]" time="0.002"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[239]" time="0.002"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[240]" time="0.003"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[241]" time="0.002"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[242]" time="0.002"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[243]" time="0.002"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[244]" time="0.002"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[245]" time="0.002"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[246]" time="0.002"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[247]" time="0.002"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[248]" time="0"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[249]" time="0.001"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[250]" time="0.001"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[251]" time="0"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[252]" time="0.001"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[253]" time="0.001"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[254]" time="0.001"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[255]" time="0.004"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[256]" time="0.002"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[257]" time="0.002"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[258]" time="0.003"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[259]" time="0.002"/>
+  <testcase classname="edu.stanford.nlp.trees.UniversalEnglishGrammaticalStructureTest" name="doTest[260]" time="0.002"/>
+</testsuite>

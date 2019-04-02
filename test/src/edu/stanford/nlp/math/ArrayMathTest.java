@@ -33,6 +33,31 @@ public class ArrayMathTest {
   }
 
   @Test
+  public void testPearson() {
+    double res = ArrayMath.pearsonCorrelation(d1,d2);
+    Assert.assertEquals(1.0000000000000002, res, 1e-6);
+    res = ArrayMath.pearsonCorrelation(d1,d4);
+    Assert.assertEquals(-0.03492903716781677, res, 1e-6);
+  }
+
+  @Test
+  public void sigLevelrandtest(){
+    double res = ArrayMath.sigLevelByApproxRand(d1,d3,13);
+    Assert.assertEquals(0.07142857142857142,res,1e-6);
+    int[] d6 = new int[3];
+    int[] d7 = new int[3];
+    d6[0] = 1;
+    d6[1] = 2;
+    d6[2] = 13;
+    d7[0] = 3;
+    d7[1] = 5;
+    d7[2] = 4;
+    res = ArrayMath.sigLevelByApproxRand(d6,d7);
+    Assert.assertEquals(1.0,res,1e-6);
+  }
+
+  //
+  @Test
   public void testInnerProduct() {
     double inner = ArrayMath.innerProduct(d4, d4);
     Assert.assertEquals("Wrong inner product", 0.14, inner, 1e-6);

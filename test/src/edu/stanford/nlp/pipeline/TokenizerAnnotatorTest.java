@@ -54,6 +54,34 @@ public class TokenizerAnnotatorTest extends TestCase {
       // yay, passed
     }
   }
+  
+  // ChaeHunPark
+  public void testBadPropsTest() {
+	    Properties props = new Properties();
+	    props.setProperty("annotators", "tokensdaizess");
+	    props.setProperty("tokenize.language", "en");
+	    try {
+	      new StanfordCoreNLP(props);
+	      throw new RuntimeException("Should have failed");
+	    } catch (IllegalArgumentException e) {
+	      // yay, passed
+    }
+  }
+  
+  //ChaeHunPark
+  public void testprocessResultcorrectTest() {
+	  String sent = "I like chicken.";
+	  Properties props = new Properties();
+      props.setProperty("annotators", "tokenize");
+	  StanfordCoreNLP pipeline = new StanfordCoreNLP(props);
+	  Annotation ann1 = new Annotation(sent);
+	  pipeline.annotate(ann1);
+	  System.out.println(ann1);
+      System.out.println(pipeline.process("I like chicken."));
+	  assertEquals(pipeline.process("I like chicken."),ann1);
+  }
+
+
 
   public void testDefaultNoNLsPipeline() {
     String t = "Text with \n\n a new \nline.";

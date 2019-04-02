@@ -6,3 +6,8 @@
 *.so
 .DS_Store
 .settings/**
+.idea/
+*.iml
+mvn
+stanford-corenlp-models-current.jar
+

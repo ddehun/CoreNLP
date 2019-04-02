@@ -1,5 +1,6 @@
 package edu.stanford.nlp.math;
 
+import edu.stanford.nlp.semgraph.semgrex.ssurgeon.AddDep;
 import edu.stanford.nlp.util.Triple;
 import junit.framework.TestCase;
 
@@ -7,6 +8,65 @@ public class SloppyMathTest extends TestCase {
 
   @Override
   public void setUp() {
+  }
+
+  //ChaeHun
+  public void testbasicMethods(){
+    DoubleAD a = new DoubleAD(1,0.1);
+    DoubleAD b = new DoubleAD(2,0.0);
+    DoubleAD ab = new DoubleAD(2,0.2);
+    DoubleAD a_plus_b = new DoubleAD(3,0.1);
+    DoubleAD a_div_const_b = new DoubleAD(0.5,0.05);
+    DoubleAD a_minus_b = new DoubleAD(-1,0.1);
+    assertEquals(ab, ADMath.mult(a,b));
+    assertEquals(ab, ADMath.multConst(a,2));
+    assertEquals(a_plus_b,ADMath.plus(a,b));
+    assertEquals(a_div_const_b,ADMath.divideConst(a,2));
+    assertEquals(a_minus_b, ADMath.minus(a,b));
+
+    DoubleAD logA = new DoubleAD();
+    logA.setval(Math.log(1));
+    logA.setdot(a.getdot()/a.getval());
+    assertEquals(logA,ADMath.log(a));
+
+    DoubleAD A_plusconst = new DoubleAD();
+    A_plusconst.setval(a.getval()+0.1);
+    A_plusconst.setdot(a.getdot());
+    assertEquals(A_plusconst,ADMath.plusConst(a,0.1));
+
+    DoubleAD A_minusconst = new DoubleAD();
+    A_minusconst.setval(a.getval()-0.1);
+    A_minusconst.setdot(a.getdot());
+    assertEquals(A_minusconst,ADMath.minusConst(a,0.1));
+  }
+
+  //ChaeHun
+  public void testinvalidHypermethod(){
+    try {
+      int k = 14;
+      int n = 142;
+      int r = 3;
+      int m = 1242;
+      double res = SloppyMath.hypergeometric(k,n,r,m);
+      throw new RuntimeException("Should have failed");
+    } catch (IllegalArgumentException e) {
+    }
+  }
+
+  //ChaeHun
+  public void testvalidHypermethod(){
+      int k = 14;
+      int n = 342;
+      int r = 112;
+      int m = 12;
+      double res = SloppyMath.hypergeometric(k,n,r,m);
+      assertEquals(0.0,res  );
+      k = 7;
+      n = 52;
+      r = 26;
+      m = 10;
+      res = SloppyMath.hypergeometric(k,n,r,m);
+      assertEquals(0.10810855762394021,res  );
   }
 
   public void testRound1() {

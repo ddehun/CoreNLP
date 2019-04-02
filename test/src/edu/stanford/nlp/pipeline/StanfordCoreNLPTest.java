@@ -1,10 +1,15 @@
 package edu.stanford.nlp.pipeline;
 
+import edu.stanford.nlp.util.Timing;
 import org.junit.Test;
 
 import java.util.Properties;
+import java.io.*;
+import java.util.*;
 
 import static org.junit.Assert.*;
+
+import edu.stanford.nlp.io.FileSequentialCollection;
 
 /**
  * Test some of the utility functions in {@link StanfordCoreNLP}.
@@ -12,6 +17,19 @@ import static org.junit.Assert.*;
  * @author Gabor Angeli
  */
 public class StanfordCoreNLPTest {
+
+  //ChaeHunPark
+  @Test
+  public void annotationpoolTest() {
+    Properties props1 = new Properties();
+    props1.setProperty("annotators", "tokenize");
+    Properties props2 = new Properties();
+    props2.setProperty("annotators", "tokenize");
+    AnnotatorImplementations impl = new AnnotatorImplementations();
+    AnnotatorPool pool1 = StanfordCoreNLP.getDefaultAnnotatorPool(props1,impl);
+    AnnotatorPool pool2 = StanfordCoreNLP.getDefaultAnnotatorPool(props2,impl);
+    assertEquals(pool1,pool2);
+  }
 
   @Test
   public void testPrereqAnnotatorsBasic() {
@@ -46,7 +64,14 @@ public class StanfordCoreNLPTest {
         StanfordCoreNLP.ensurePrerequisiteAnnotators(new String[]{"regexner", "ner"}, new Properties()));
   }
 
-
+  @Test
+  public void testBasicAnnotatorwithOrdering() {
+	    assertEquals("tokenize,ssplit,pos",
+	        StanfordCoreNLP.ensurePrerequisiteAnnotators(new String[]{"pos"}, new Properties()));
+	    assertEquals("tokenize,ssplit,pos,lemma,depparse,natlog",
+	        StanfordCoreNLP.ensurePrerequisiteAnnotators(new String[]{"natlog"}, new Properties())); 
+  }
+  
   @Test
   public void testPrereqAnnotatorsCorefBeforeOpenIE() {
     assertEquals("tokenize,ssplit,pos,lemma,depparse,natlog,ner,coref,openie",

@@ -171,6 +171,16 @@
     <testSourceDirectory>test/src</testSourceDirectory>
     <plugins>
       <plugin>
+        <groupId>org.pitest</groupId>
+        <artifactId>pitest-maven</artifactId>
+        <version>1.4.7</version>
+        <configuration>
+          <targetClasses>
+            <param>edu.stanford.nlp.math*</param>
+          </targetClasses>
+    </configuration>
+      </plugin>      	
+      <plugin>
         <groupId>org.codehaus.mojo</groupId>
         <artifactId>build-helper-maven-plugin</artifactId>
         <version>1.7</version>
@@ -184,7 +194,7 @@
             <configuration>
               <artifacts>
                 <artifact>
-                  <file>${project.basedir}/stanford-corenlp-3.9.2-models.jar</file>
+                  <file>${project.basedir}/stanford-corenlp-models-current.jar</file>
                   <type>jar</type>
                   <classifier>models</classifier>
                 </artifact>
